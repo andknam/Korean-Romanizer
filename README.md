@@ -1,8 +1,6 @@
 # Korean Romanizer
 For Korean learners, it can be really difficult to sound out Korean words properly (especially considering there are so many different exceptions stemming from conversation talking speed or simply dropping sounds). To provide a rough English approximation, this romanizer takes Korean strings and outputs English transliteration using different rules. These rules include consonant assimilation, double consonant finals, vowel followed by a consonant final, and a few others. The romanizer hyphenates the English transliteration so that every character in the Korean input can be compared to some transliterated English component (usually, hyphens are reserved to resolve possiblities of confusion). 
 
-This romanizer is largely inspired by Ilkyu Ju (@osori) and contains slight modifications.
-
 # Usage
 ```
 example_1 = Romanizer('안녕하세요 ㅋㅋ.').romanize()
